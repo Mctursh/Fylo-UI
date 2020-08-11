@@ -95,6 +95,10 @@ p {
 
 .attribution {
   font-size: 70%;
+  color: #fff;
+}
+.attribution a{
+  color: #cffffe;
 }
 
 #right {
