@@ -18,7 +18,8 @@ h1 {
 p {
   color: white;
 }
-#page{
+
+#page {
   background-image: url('images/bg-mobile.png');
 }
 
@@ -67,7 +68,6 @@ p {
   padding: 20px 23px 0 23px;
   height: 8.125rem;
   border-radius: 6px;
-
 }
 
 .in {
@@ -97,7 +97,8 @@ p {
   font-size: 70%;
   color: #fff;
 }
-.attribution a{
+
+.attribution a {
   color: #cffffe;
 }
 
@@ -266,56 +267,69 @@ p {
   cursor: pointer;
   text-align: center;
 }
-.d-left{
+
+.d-left {
   width: 90%;
   margin: auto;
 }
+
 @media (min-width: 555px) {
-  .animation{
+  .animation {
     width: 80%;
   }
+}
+
 @media (min-width: 768px) {
-  .animation{
+  .animation {
     width: 70%;
   }
-  @media (min-width: 900px) {
-    .animation{
-      width: 60%;
-    }
+}
+
+@media (min-width: 900px) {
+  .animation {
+    width: 60%;
+  }
+}
+
 @media (min-width: 1024px) {
-  .animation{
+  .animation {
     width: 50%;
   }
-
 }
+
 @media (min-width: 1440px) {
-  #page{
+  #page {
     background-image: none;
     background-color: hsl(229, 57%, 11%);
-}
-body{
+  }
+
+  body {
     font-family: 'Raleway', sans-serif;
-}
-.main-container{
-  background: url('images/bg-desktop.png');
-  height: 25rem;
-  margin: 25rem 0 0;
-}
-.animation{
-  width: 100%;
-  position: relative;
-  bottom: 10rem;
-  width: 90%;
-  left: 1.5rem;
-}
-  .fylo{
+  }
+
+  .main-container {
+    background: url('images/bg-desktop.png');
+    height: 25rem;
+    margin: 25rem 0 0;
+  }
+
+  .animation {
+    width: 100%;
+    position: relative;
+    bottom: 10rem;
+    width: 90%;
+    left: 1.5rem;
+  }
+
+  .fylo {
     width: 25%;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     display: inline-block;
   }
-  .bottom{
+
+  .bottom {
     width: 50%;
     display: inline-block;
     position: relative;
@@ -327,30 +341,32 @@ body{
     padding-right: 37px;
     border-radius: 12px;
     height: 100px;
-
   }
-  .d-left{
+
+  .d-left {
     width: 35%;
     margin: 0;
-
   }
-  .left-space{
+
+  .left-space {
     position: relative;
     bottom: 155%;
     left: 80%;
     width: 20%;
     margin: 50px 0 0 0;
   }
-  .attribution{
+
+  .attribution {
     font-size: 150%;
   }
+
   .triangle-left {
-  position: absolute;
-  right: 0px;
- 	width: 0;
- 	height: 0;
- 	border-top: 0 solid transparent;
- 	border-right: 25px solid #fff;
- 	border-bottom: 25px solid transparent;
- }
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-right: 25px solid #fff;
+    border-bottom: 25px solid transparent;
+  }
 }
